@@ -21,6 +21,10 @@ body{
     padding: 12px 36px;
     border-radius: 10px;
 }
+.btn-primary:hover {
+  background-color: #3c38cc;
+  cursor: pointer;
+}
 .primary-color{
     color: #4E47FF;
 }
@@ -70,14 +74,14 @@ main{
     max-width: 1440px;
     margin: 0px auto;
 }
-.explore-container{
+.action-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 220px;
     margin: 116px 160px 0px 160px;
 }
-.explore-content{
+.action-content{
     max-width: 517px;
 }
 .action-title{
@@ -89,6 +93,7 @@ main{
     font-size: 24px;
     font-weight: 400;
     color: #25243283;
+    margin-bottom: 23px;
 }
 .web-img{
     width: 403px;
@@ -98,7 +103,7 @@ main{
 .explore-content button {
   margin-top: 23px;
 }
-
+/* user section styles */
 .users {
   max-width: 1140px;
   height: 306px;
@@ -219,4 +224,36 @@ form textarea {
 form label{
     font-size: 16px;
     font-weight: 600;
+}
+/* footer styles */
+footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #FFFFFF;
+}
+.logo{
+    font-size: 100px;
+    font-weight: 900;
+     margin-top: 104px;
+}
+.footer-description{
+    max-width: 531px;
+    margin: 8px auto 20px auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+}
+.footer-nav ul {
+  list-style: none;
+  margin: 0 auto 103px auto;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
 }
