@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+    background-color: #F7F9FF; 
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -140,14 +143,13 @@ main{
     gap: 20px;
     margin-top: 50px;
     justify-content: center;
-    /* flex-wrap: wrap; */
 }
 .review {
     max-width: 366px;
     padding: 24px;
     background-color: #ffffff80; 
     border-radius: 14px;
-    box-shadow: 0px 4px 4px 0px #0000001b;
+    box-shadow: 0px 4px 4px 0px #d0cccc1b;
 }
 .reviewer-info{
     display: flex;
@@ -171,7 +173,6 @@ main{
     height: 40px;
     border-radius: 50px;
 }
-
 .reviewer-name-date h5{
     font-size: 16px;
     font-weight: 600;
@@ -179,4 +180,43 @@ main{
 .reviewer-name-date p{
     font-size: 16px;
     font-weight: 400;
+}
+/* form styles */
+.form-section {
+  margin: 200px 150px 0px 150px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-title {
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 130px;
+  margin-right: 115px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input{
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+form textarea {
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+form label{
+    font-size: 16px;
+    font-weight: 600;
 }
